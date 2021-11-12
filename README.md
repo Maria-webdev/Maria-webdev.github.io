@@ -2,10 +2,10 @@
 
 ## Mesto 
 
-[сайт](https://viannat-frontend-mesto.nomoredomains.club/)  [репо](https://github.com/Maria-webdev/React-mesto-api-full)
-
 Аналог социальной сети. React+Express, собственный домен на ЯндексОблаке. 
 Функционал - возможность регистрации, логина, редактирования профиля, добавления фотографий
+
+[сайт](https://viannat-frontend-mesto.nomoredomains.club/)  [репо](https://github.com/Maria-webdev/React-mesto-api-full)
 
 ## Змейка
 
