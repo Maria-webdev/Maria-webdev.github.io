@@ -1,0 +1,10 @@
+.header__list {
+    margin: 0;
+    margin-right: 18px;
+    padding: 0;
+}
+
+.header__list:last-of-type {
+    margin-right: 0;
+}
+    
