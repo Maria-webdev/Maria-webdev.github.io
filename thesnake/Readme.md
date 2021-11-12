@@ -1,3 +1,3 @@
 # Змейка
 
-[играть](https://maria-webdev.github.io/snake)
+[играть](https://maria-webdev.github.io/thesnake)
