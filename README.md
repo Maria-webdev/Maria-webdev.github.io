@@ -16,3 +16,9 @@
 адаптивная верстка 
 
 [результат](https://maria-webdev.github.io/russian-travel/)   [репо](https://github.com/Maria-webdev/russian-travel)
+
+## Слайдер на js
+
+без использования библиотек
+
+[слайдер](https://maria-webdev.github.io/simple-slider/)  [репо](https://github.com/Maria-webdev/simple-slider)
