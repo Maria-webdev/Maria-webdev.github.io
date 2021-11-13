@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0;
+	height: 100vh;
+	background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+	display: flex;
+}
+
+img {
+	margin: auto;
+	width: 600px;
+	max-height: 100vh;
+}
+
+button {
+	margin: auto;
+	padding: 0;
+	width: 90px;
+	height: 90px;
+	border: none;
+	color: grey;
+	font-size: 200px;
+	line-height: 0;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.slider {
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	overflow: hidden;
+}
+
+.slider-line {
+	margin: 0;
+	padding: 0;
+	width: 600px;
+	display: flex;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
