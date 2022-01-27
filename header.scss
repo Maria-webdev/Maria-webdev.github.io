@@ -1,0 +1,214 @@
+.header {
+	width: 100%;
+	display: block;
+
+	ul {
+		list-style-type: none;
+	}
+
+	&__nav-top {
+		padding: 43px 19px 23px 160px;
+		margin: auto 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border-bottom: 2px solid #b3bfcd;
+
+		@include tablet {
+			display: none;
+		}
+	}
+
+	&__links {
+		padding: 0;
+		display: flex;
+		justify-content: space-between;
+		text-decoration: none;
+		align-items: center;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	&__link {
+		.header__nav-top & {
+			margin-right: 32px;
+		}
+
+		.header__nav-bottom & {
+			margin-right: 56px;
+			font-size: 32px;
+			line-height: 40px;
+		}
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+
+	&__nav-bottom {
+		display: flex;
+		align-items: center;
+		padding: 24px 19px 26px 24px;
+
+		@include tablet {
+			display: none;
+		}
+	}
+
+	&__contacts {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__location {
+		padding: 0;
+		margin-right: 56px;
+		display: flex;
+		align-items: center;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 20px;
+		line-height: 28px;
+		color: $color_grey;
+	}
+
+	&__location-img {
+		width: 16px;
+		height: 20px;
+		margin-right: 8px;
+		box-sizing: border-box;
+		@extend %transition;
+
+		&:hover {
+			@extend %hover;
+		}
+	}
+
+	&__phone {
+		padding: 0;
+		margin-right: 56px;
+		display: flex;
+		align-items: center;
+		font-weight: 500;
+		font-style: normal;
+		font-size: 32px;
+		line-height: 24px;
+	}
+
+	&__phone-img {
+		width: 32px;
+		height: 32px;
+		margin-right: 16px;
+		box-sizing: border-box;
+		@extend %transition;
+
+		&:hover {
+			@extend %hover;
+		}
+	}
+
+	&__profile {
+		width: 64px;
+		height: 64px;
+		box-sizing: border-box;
+		@extend %transition;
+
+		&:hover {
+			@extend %hover;
+		}
+
+		.header__mobile & {
+			width: 40px;
+			height: 40px;
+			box-sizing: border-box;
+		}
+	}
+
+	&__basket-brush {
+		margin-left: auto;
+		display: flex;
+	}
+
+	&__logo {
+		width: 80px;
+		height: 80px;
+		margin-right: 56px;
+		box-sizing: border-box;
+		@extend %transition;
+
+		&:hover {
+			@extend %hover;
+		}
+
+		.header__mobile & {
+			width: 44px;
+			height: 44px;
+			margin-right: 0px;
+		}
+	}
+
+	&__brush {
+		width: 40px;
+		height: 40px;
+		box-sizing: border-box;
+		margin-right: 40px;
+		@extend %transition;
+
+		&:hover {
+			@extend %hover;
+		}
+	}
+
+	&__basket {
+		width: 40px;
+		height: 40px;
+		box-sizing: border-box;
+		@extend %transition;
+
+		&:hover {
+			@extend %hover;
+		}
+	}
+
+	&__mobile {
+		padding: 30px 38px 9px 38px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		display: none;
+
+		@include tablet {
+			display: flex;
+		}
+	}
+
+	&__burger {
+		width: 40px;
+		height: 40px;
+		box-sizing: border-box;
+		@extend %transition;
+
+		&:hover {
+			@extend %hover;
+		}
+	}
+
+	a {
+		text-decoration: none;
+		color: $main-color;
+		@extend %transition;
+
+		&:hover {
+			@extend %hover;
+		}
+
+		.header__nav-top & {
+			color: $color_grey; //не меняет цвет
+		}
+	}
+}
+
+//TODO:изменить цвет ссылок
